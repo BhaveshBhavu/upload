@@ -1,0 +1,140 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+       /* 
+background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+          url('4.jpg');
+          background-repeat: no-repeat;
+          background-size: 100px 100px;
+          
+ clip-path: circle(28.4% at 100% 1%);*/
+  
+}
+
+
+.hed{
+  width: 100vw;
+ height: 80px;
+ background-color:rgba(0,0,0,.2);
+  border-bottom: 2px solid black;
+
+
+  
+}
+
+.hed h{
+  font-size: 50px;
+  padding: 10px;
+}
+
+.span{
+  width: 55px;
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  
+}
+
+.menu{
+  width: 0px;
+  height: 100px;
+  background-color:rgba(0,0,0,.5);border: 2px solid black;
+  margin-top: 30px;
+  transition: 0.5s;
+  
+}
+
+.menu_js{ 
+ width: 300px;
+ position: fixed;
+ transition: 0.8s;
+}
+
+.menu_o{
+  margin: 10px;
+  display: none;
+  transition: 0.5s;
+}
+
+.bh{display: block;}
+
+.img img{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  
+}
+
+ .hg{
+  width: 0px;
+  transition: 0.5s;
+}
+
+
+.pp{
+  width: 200px;
+}
+
+
+.and_box{
+  background-color:rgba(0,0,0,.2) ;
+  height: 300px;
+  display: flex;
+  inset:block;
+  justify-content: center;
+  display: none;
+  
+  border: 2px solid black;
+}
+  
+  
+ hr{
+  color: black;
+  
+  background-color: black;
+  }
+  
+  .and_box{
+    float: bottom;
+  }
+  
+.and_box a{
+  text-decoration: none;
+  height: 40px;
+  padding: 1px;
+  color: black;
+}
+  
+ .andbbox{
+   padding: 20px;
+   width: 200px;
+   
+ }
+   
+ .a_b{
+   display: block;
+ }
+ 
+ .active{
+   background-color: red;
+ }
+ 
+ .di{
+   display: none;
+ }
+ 
+ .dami{
+   display: flex;
+   justify-content: center;
+ }
+ .dami h1{
+   margin-left: 20px;
+ }
+ .dami h2{
+   margin-left: 35px;
+ }
+ .dami3{
+  display: none;
+ }
